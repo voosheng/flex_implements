@@ -1,0 +1,81 @@
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	margin:0;
+	padding:0px;
+	line-height: 1;
+	font-family: Verdana, Geneva, sans-serif ,"微軟正黑體";
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*box-sizing*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before,.clearfix:after {display:table;line-height:0;content:"";}
+.clearfix:after {clear:both;}
+.clearfix {*zoom: 1; /*forIE*/}
+
+/* float */
+.right{ float:right; }
+.left{ float:left; }
+.clear{ clear:both;}
+
+/* text-align */
+.CT{text-align: center; margin: 0 auto;	}
+.LF{text-align:	left;}
+.RT{text-align:	right;}
+/* 超連結 */
+a{ display:block; text-decoration: none;}
+a:hover{opacity:0.7; /* color:#AF983C; */}
+img{
+	max-width:100%;
+	height: auto;
+}
+ul { list-style: none;}
+

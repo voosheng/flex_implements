@@ -1,0 +1,102 @@
+/* layout  力求一眼看的懂*/
+.header{}
+.main{
+  /* 主要內容區域 */
+}
+.content{
+  /* 主要內容區域裡面填肉的部分 */
+}
+.menu{
+  /* 菜單 */
+}
+.m-menu{
+  /* M版菜單 */
+}
+.nav{
+  /* 導覽 */
+}
+.side-nav{
+  /* 側導覽 */
+}
+.footer{}
+
+/* 格線 盒子 */
+.box-flex{}
+.box-grid{}
+.box-inner{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* 圖示 */
+.ic-setting{}
+.ic-withdraw{}
+
+/* logo */
+.logo-CCBao{}
+
+/* color */
+/* 顏色-主色系-red */
+.cl-main-red{}
+
+/* active的狀態 */
+/* .active- */
+
+/*-----------------------------------------flex */
+.box-flex{
+display: flex ; 
+/* justify-content: center; */
+align-items: center;
+justify-items: center;
+align-content: space-between;
+}
+.box-flex-inline{
+  display: inline-flex;
+}
+.box-flex-item{}
+/*----------------------------------------------------sons  */
+
+.main{
+  width: 1024px;  
+  border: 1px solid #ccc; 
+  margin: 50px auto;
+  
+}
+.box-flex-item{  
+  width: 200px;
+  height:180px;
+  /* line-height:20px; */
+  background-color: beige;
+  
+}
+.box-flex-item:nth-of-type(2){
+  flex-basis: 600px;
+  /* 指定*/
+  display: flex;
+  flex-direction: column;
+  /* 列排或欄排 */
+  justify-content: center;
+  /* 主軸 */
+  background-color:seagreen;
+  text-align: center;
+  
+}
+.box-flex-item:nth-of-type(2) h3{
+  /* background-color: blue; */
+  /* margin-bottom: 10px; */
+  padding: 10px 0 ; 
+ 
+}
+.box-flex-item:nth-of-type(2) h3 span{
+  font-size: 0.7rem;
+  
+}
+.box-flex-item:nth-of-type(2) p{
+  background-color: aquamarine;
+  padding: 10px 50px;
+  font-size: 0.7rem;
+}
+.box-flex-item:nth-of-type(3){
+  background-color: blueviolet;
+ 
+}
